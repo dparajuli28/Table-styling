@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table styling with color</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        tr{
+            background-color: skyblue;
+
+        }
+        th,td{
+            text-align: left;
+            padding: 12px;
+        }
+        th{
+            background-color: darkblue;
+            color: aliceblue;
+        }
+        tr:nth-child(odd){
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <h1>My First Table Styling</h1>
+    <table>
+       <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Location</th>
+        <th>Salary</th>
+       </tr>
+       <tr>
+        <td>01</td>
+        <td>Rikshan</td>
+        <td>Mangalpur</td>
+        <td>$5000</td>
+       </tr>
+       <tr>
+        <td>02</td>
+        <td>Bigesh</td>
+        <td>Geetanagar</td>
+        <td>$5500</td>
+       </tr>
+       <tr>
+        <td>03</td>
+        <td>Lokesh</td>
+        <td>Patihani</td>
+        <td>$6000</td>
+       </tr>
+       <tr>
+        <td>04</td>
+        <td>Deepak</td>
+        <td>Bharatpur</td>
+        <td>$10000</td>
+       </tr>
+       <tr>
+        <td>05</td>
+        <td>Niraj</td>
+        <td>Tandi</td>
+        <td>$8000</td>
+       </tr>
+       <tr>
+        <td>06</td>
+        <td>Prabin</td>
+        <td>padampokhari</td>
+        <td>$6500</td>
+       </tr>
+    </table>
+</body>
+</html>

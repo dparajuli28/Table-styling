@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+body{
+    background-image: url("https://images.unsplash.com/photo-1691712988368-ab9cb6cd6ef3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+#test{
+    color:rgb(255,100,100);
+    text-align: center;
+    
+}
+/* p{
+    color:bisque;
+    background-color: yellowgreen; 
+}*/
+
+.loremtext{
+    /* background-color: red; */
+    color: yellow;
+    text-decoration: underline;
+    text-decoration-color: rgb(238, 145, 6);
+    text-decoration-thickness: 5px;
+    font-family: 'Russo One', sans-serif;
+}
+.border{
+    /* display: inline-block; */
+    /* border-style: dotted;
+    border-color: white;
+    border-width: 6px;
+    border-radius: 40px; */
+    border: 6px solid blue;
+    height: 200px;
+    width: 300px;
+    overflow-y:scroll ;
+    overflow-x:scroll ;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.border p{
+    width: 400px;
+}
+
+.border .paragraph{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-align: justify;
+
+}
+.border .paragraph span{
+    font-family: cursive;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: circle;
+}
+#btnsubmit{
+    margin-right: 40px;
+
+}
+.container{
+    margin:auto;
+    border-style: dotted;
+    border-color: black;
+    border-radius: 50px;
+    width: 100px;
+}
